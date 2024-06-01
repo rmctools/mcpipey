@@ -5,7 +5,7 @@
   "scripts": {
     "test": "nx run mcpipey-lib:test",
     "build": "nx run mcpipey-lib:build --production",
-    "release": "nx release",
+    "release": "npm config set access public && npx nx release publish",
     "clean": "rm -rf .nx && rm -rf node_modules/.cache && rm -rf dist",
     "cleanbuild": "npm run clean && npm run build"
   },
