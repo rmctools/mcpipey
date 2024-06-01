@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "test": "nx run mcpipey-lib:test",
+    "build": "nx run mcpipey-lib:build --production",
     "release": "nx release"
   },
   "private": true,
