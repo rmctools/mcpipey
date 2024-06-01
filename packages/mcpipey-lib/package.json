@@ -3,5 +3,16 @@
   "version": "0.0.1",
   "dependencies": {},
   "main": "./index.cjs",
-  "module": "./index.js"
+  "module": "./index.js",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmctools/mcpipey.git"
+  },
+  "author": "Ryan McCormick",
+  "bugs": {
+    "url": "https://github.com/rmctools/mcpipey/issues"
+  },
+  "homepage": "https://github.com/rmctools/mcpipey"
 }
