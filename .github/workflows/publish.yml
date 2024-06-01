@@ -27,7 +27,11 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+        shell: bash
+
+      - name: Build
+        run: npm run build
         shell: bash
 
       - name: Print Environment Info
